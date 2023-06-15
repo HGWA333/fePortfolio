@@ -1,0 +1,89 @@
+#mainSvg {
+  #button {
+    cursor: none;
+    & > g {
+      transition: transform 0.35s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      &:hover {
+        transform: scale(1.074);
+        circle {
+          stroke-width: 5.5;
+          stroke-miterlimit: 10;
+          stroke: #211d1e;
+        }
+        path {
+          fill: #f1ecd5;
+        }
+      }
+    }
+    #bt1 {
+      transform-origin: 456.16px 874.77px;
+      &:hover circle {
+        fill: #ef454a;
+      }
+    }
+    #bt2 {
+      transform-origin: 708.22px 1561.67px;
+      &:hover circle {
+        fill: #008e74;
+      }
+    }
+    #bt3 {
+      transform-origin: 455.72px 2295.51px;
+      &:hover circle {
+        fill: #745a9e;
+      }
+    }
+    #bt4 {
+      transform-origin: 1222.54px 2851.07px;
+      &:hover circle {
+        fill: #00a497;
+      }
+    }
+    #bt5 {
+      transform-origin: 557.62px 3320.42px;
+      &:hover circle {
+        fill: #cc5229;
+      }
+    }
+    #bt6 {
+      transform-origin: 145.58px 4039.59px;
+      &:hover circle {
+        fill: #5ab5b2;
+      }
+    }
+    #bt7 {
+      transform-origin: 350.45px 4553.24px;
+      &:hover circle {
+        fill: #eb6159;
+      }
+    }
+    #bt8 {
+      transform-origin: 1199.46px 4594.2px;
+      &:hover circle {
+        fill: #ffdf85;
+      }
+    }
+    #bt9 {
+      transform-origin: 826.79px 5442.31px;
+      &:hover circle {
+        fill: #ffdf85;
+      }
+    }
+  }
+
+  #button2 {
+    cursor: none;
+  }
+  #sideText {
+    cursor: none;
+  }
+  #icon {
+    cursor: none;
+  }
+  #iconText {
+    cursor: none;
+  }
+  #mainText {
+    cursor: none;
+  }
+}
