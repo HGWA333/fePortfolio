@@ -1,0 +1,111 @@
+#mainSvg #button {
+  cursor: none;
+}
+#mainSvg #button > g {
+  transition: transform 0.35s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+#mainSvg #button > g:nth-child(1):hover {
+  transform: scale(1.084) rotate(-20deg);
+}
+#mainSvg #button > g:nth-child(2):hover {
+  transform: scale(1.084) rotate(20deg);
+}
+#mainSvg #button > g:nth-child(3):hover {
+  transform: scale(1.084) rotate(-20deg);
+}
+#mainSvg #button > g:nth-child(4):hover {
+  transform: scale(1.084) rotate(20deg);
+}
+#mainSvg #button > g:nth-child(5):hover {
+  transform: scale(1.084) rotate(-20deg);
+}
+#mainSvg #button > g:nth-child(6):hover {
+  transform: scale(1.084) rotate(20deg);
+}
+#mainSvg #button > g:nth-child(7):hover {
+  transform: scale(1.084) rotate(-20deg);
+}
+#mainSvg #button > g:nth-child(8):hover {
+  transform: scale(1.084) rotate(20deg);
+}
+#mainSvg #button > g:nth-child(9):hover {
+  transform: scale(1.084) rotate(-20deg);
+}
+#mainSvg #button > g:hover circle {
+  stroke-width: 5.5;
+  stroke-miterlimit: 10;
+  stroke: #211d1e;
+}
+#mainSvg #button > g:hover path {
+  fill: #f1ecd5;
+}
+
+#mainSvg #button #bt1 {
+  transform-origin: 456.16px 874.77px;
+}
+#mainSvg #button #bt1:hover circle {
+  fill: #ef454a;
+}
+#mainSvg #button #bt2 {
+  transform-origin: 708.22px 1561.67px;
+}
+#mainSvg #button #bt2:hover circle {
+  fill: #008e74;
+}
+#mainSvg #button #bt3 {
+  transform-origin: 455.72px 2295.51px;
+}
+#mainSvg #button #bt3:hover circle {
+  fill: #745a9e;
+}
+#mainSvg #button #bt4 {
+  transform-origin: 1222.54px 2851.07px;
+}
+#mainSvg #button #bt4:hover circle {
+  fill: #00a497;
+}
+#mainSvg #button #bt5 {
+  transform-origin: 557.62px 3320.42px;
+}
+#mainSvg #button #bt5:hover circle {
+  fill: #cc5229;
+}
+#mainSvg #button #bt6 {
+  transform-origin: 145.58px 4039.59px;
+}
+#mainSvg #button #bt6:hover circle {
+  fill: #5ab5b2;
+}
+#mainSvg #button #bt7 {
+  transform-origin: 350.45px 4553.24px;
+}
+#mainSvg #button #bt7:hover circle {
+  fill: #eb6159;
+}
+#mainSvg #button #bt8 {
+  transform-origin: 1199.46px 4594.2px;
+}
+#mainSvg #button #bt8:hover circle {
+  fill: #5ab5b2;
+}
+#mainSvg #button #bt9 {
+  transform-origin: 826.79px 5442.31px;
+}
+#mainSvg #button #bt9:hover circle {
+  fill: #ffdf85;
+}
+#mainSvg #button2 {
+  cursor: none;
+}
+#mainSvg #sideText {
+  cursor: none;
+}
+#mainSvg #icon {
+  cursor: none;
+}
+#mainSvg #iconText {
+  cursor: none;
+}
+#mainSvg #mainText {
+  cursor: none;
+} /*# sourceMappingURL=svgScss.css.map */
