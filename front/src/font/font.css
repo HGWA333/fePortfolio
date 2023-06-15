@@ -1,0 +1,18 @@
+@font-face {
+  font-family: ComBold;
+  src: url(./210CB.ttf) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: ComReagular;
+  src: url(./210CR.ttf) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: ComFamliy;
+  src: url(./210CF.ttf) format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
