@@ -5,15 +5,26 @@ const TwoModal = ({ modalRef, closeModal }) => {
   return (
     <>
       <ModalStyle ref={modalRef}>
-        <div>
-          죄송합니다. 현재 어떻게 만들지 구상 중입니다.ㅜ 빠른 시일 내에.. 2
-        </div>
-        <div
-          onClick={() => {
-            closeModal();
-          }}
-        >
-          이거 클릭 하면 꺼짐
+        <div className="gridContainer">
+          <div className="gridItem001">
+            <div>죄송합니다. 현재 어떻게 만들지 구상 중입니다.ㅜ2</div>
+            <div
+              onClick={() => {
+                closeModal();
+              }}
+            >
+              이거 클릭 하면 꺼짐
+            </div>
+          </div>
+          <div className="gridItem002"></div>
+          <div className="gridItem003"></div>
+          <div className="gridItem004"></div>
+          <div className="gridItem005"></div>
+          <div className="gridItem006"></div>
+          <div className="gridItem007"></div>
+          <div className="gridItem008"></div>
+          <div className="gridItem009"></div>
+          <div className="gridItem010"></div>
         </div>
       </ModalStyle>
     </>
