@@ -592,7 +592,7 @@ function SvgComponent(
               <animated.g
                 style={{
                   transform: xys.to(trans),
-                  transformOrigin: "-30px -20px",
+                  transformOrigin: "-30px 10px",
                 }}
                 onMouseLeave={handleMouseLeave}
                 onMouseEnter={handleMouseMove}
@@ -890,7 +890,7 @@ function SvgComponent(
           </g>
         </g>
         <foreignObject id="mt01" x="175" y="985" width="800" height="480">
-          <div xmlns="http://www.w3.org/1999/xhtml" className="container">
+          <div xmlns="http://www.w3.org/1999/xhtml">
             <LayoutGroup>
               <motion.ul
                 layout
@@ -905,7 +905,7 @@ function SvgComponent(
           </div>
         </foreignObject>
         <foreignObject id="mt02" x="565" y="1695" width="600" height="480">
-          <div xmlns="http://www.w3.org/1999/xhtml" className="container">
+          <div xmlns="http://www.w3.org/1999/xhtml">
             <LayoutGroup>
               <motion.ul
                 layout
@@ -920,7 +920,7 @@ function SvgComponent(
           </div>
         </foreignObject>
         <foreignObject id="mt03" x="75" y="2377" width="980" height="420">
-          <div xmlns="http://www.w3.org/1999/xhtml" className="container">
+          <div xmlns="http://www.w3.org/1999/xhtml">
             <LayoutGroup>
               <motion.ul
                 layout
@@ -935,7 +935,7 @@ function SvgComponent(
           </div>
         </foreignObject>
         <foreignObject id="mt04" x="225" y="2803" width="830" height="470">
-          <div xmlns="http://www.w3.org/1999/xhtml" className="container">
+          <div xmlns="http://www.w3.org/1999/xhtml">
             <LayoutGroup>
               <motion.ul
                 layout
@@ -950,7 +950,7 @@ function SvgComponent(
           </div>
         </foreignObject>
         <foreignObject id="mt05" x="510" y="3420" width="900" height="546">
-          <div xmlns="http://www.w3.org/1999/xhtml" className="container">
+          <div xmlns="http://www.w3.org/1999/xhtml">
             <LayoutGroup>
               <motion.ul
                 layout
@@ -965,7 +965,7 @@ function SvgComponent(
           </div>
         </foreignObject>
         <foreignObject id="mt06" x="408" y="3995" width="1000" height="480">
-          <div xmlns="http://www.w3.org/1999/xhtml" className="container">
+          <div xmlns="http://www.w3.org/1999/xhtml">
             <LayoutGroup>
               <motion.ul
                 layout
@@ -980,7 +980,7 @@ function SvgComponent(
           </div>
         </foreignObject>
         <foreignObject id="mt07" x="30" y="4695" width="1000" height="570">
-          <div xmlns="http://www.w3.org/1999/xhtml" className="container">
+          <div xmlns="http://www.w3.org/1999/xhtml">
             <LayoutGroup>
               <motion.ul
                 layout
@@ -995,7 +995,7 @@ function SvgComponent(
           </div>
         </foreignObject>
         <foreignObject id="mt08" x="620" y="5525" width="770" height="850">
-          <div xmlns="http://www.w3.org/1999/xhtml" className="container">
+          <div xmlns="http://www.w3.org/1999/xhtml">
             <LayoutGroup>
               <motion.ul
                 layout
