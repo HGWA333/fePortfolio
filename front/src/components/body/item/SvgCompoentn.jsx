@@ -592,7 +592,7 @@ function SvgComponent(
               <animated.g
                 style={{
                   transform: xys.to(trans),
-                  transformOrigin: "-30px -20px",
+                  transformOrigin: "-30px 10px",
                 }}
                 onMouseLeave={handleMouseLeave}
                 onMouseEnter={handleMouseMove}
