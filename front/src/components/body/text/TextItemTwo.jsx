@@ -92,6 +92,7 @@ const FrameBox = styled(motion.div)`
 `;
 
 const SlideWarp = styled(motion.div)`
+  position: absolute;
   height: auto;
   padding: 13px;
   display: flex;

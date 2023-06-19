@@ -96,6 +96,7 @@ const FrameBox = styled(motion.div)`
 `;
 
 const SlideWarp = styled(motion.div)`
+  position: absolute;
   height: auto;
   padding: 13px;
   display: flex;
@@ -118,7 +119,7 @@ const SlideWarp = styled(motion.div)`
 
   @media (min-width: 320px) {
     h5 {
-      font-size: clamp(1.7rem, 2vw, 1.73rem);
+      font-size: clamp(1.7em, 2vw, 1.78rem);
     }
   }
 
